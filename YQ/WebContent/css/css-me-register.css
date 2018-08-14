@@ -1,0 +1,66 @@
+/* 登录input样式 */
+.input-register {
+	border: 1px solid #ccc;
+	padding: 7px 10px;
+	float: left;
+	min-width:350px;
+	border-radius: 2px;
+}
+.input-register:hover{
+	border-color: #f66495;
+}
+
+/* 登录input-submit样式 */
+.submit-register {
+	border: 1px solid #ccc;
+	padding: 7px 10px 9px 10px;/*上右下左*/
+	border-radius: 2px;
+	float: left;
+	min-width:372px;
+	background-color: #00a7de;
+	color:#ffffff;
+	font-size:16px;
+	cursor:pointer;
+}
+.submit-register:hover {	
+	background-color: #00b8f4;
+}
+
+
+/* 标题h2 */
+.register-middle h2{
+	position: absolute;
+	top:10%;
+	left:45%;
+}
+/* 登录表单 */
+.register-form{
+	position: absolute;
+	top:30%;
+	left:18%;
+}
+
+/* tr */
+tr{
+	height:45px;
+}
+
+/* td */
+td{
+	float:left;
+	font-size:12px;
+	color:#707070;
+}
+
+.register-tr{
+	height:60px;
+}
+
+/* 登录结果 */
+.register-result{	
+	position: absolute;
+	top:56.5%;
+	left:19%;
+	font-size:12px;
+	color:#f66495;
+}

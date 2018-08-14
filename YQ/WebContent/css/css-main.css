@@ -1,0 +1,131 @@
+/* 主体样式 */
+.all{
+	background: url(../image/bg02.jpg);
+	background-size:200% 200%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	width:100%;
+	height:100%;
+}
+
+/* 顶部菜单样式 */
+.top {
+	background-color: #fafafa;
+	position:absolute;
+	left:0%;
+	top:0%;
+	width:100%;
+	height:6.3%;
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);
+}
+/* 顶部菜单样式 左边选择菜单 */
+.menu-top{
+	position:absolute;
+	left:10%;
+}
+.menu-top .menu{
+/* 	background-color: #ff0080; */
+	display:inline-block;
+	font-size:12px;
+	margin-top:10px;
+	margin-right:25px;
+	cursor:pointer;
+}
+/* 顶部菜单样式 右边个人菜单 */
+.i-top{
+	position:absolute;
+	left:57%;
+	top:7.5%;
+}
+.i-top .menu{
+/* 	background-color: #ff0080; */
+	display:inline-block;
+	font-size:12px;
+	margin-top:7px;
+	margin-right:15px;
+	cursor:pointer;
+}
+/* 顶部菜单被鼠标覆盖时的样式 */
+.top .menu:hover{
+	color:#0080ff;
+}
+/* 顶部菜单样式 中间个人头像 */
+.i-image{	
+	position:absolute;
+	left:52.5%;
+	top:12%;
+	border-radius:12.5px;
+	cursor:pointer;
+	z-index:991;
+}
+.i-image:hover{
+	width:50px;
+	height:50px;
+	margin-left:-12.5px;
+	border-radius:25px;
+}
+/* 登录div样式 */
+.login-top{
+	display:none;
+	background-color: #ffffff;
+	top:90%;
+	left:43.5%;
+	height:120px;
+	width:20%;
+	text-align:center;
+	position:absolute;
+	z-index:990;
+	box-shadow:0px 2px 2px 0px rgba(0,0,0,0.05);
+}
+/* 头像被鼠标覆盖时 */
+.image-top:hover .i-image{
+	width:50px;
+	height:50px;
+	margin-left:-12.5px;
+	border-radius:25px;
+}
+/* 头像被鼠标覆盖时 */
+.image-top:hover .login-top{
+	display:inline;
+}
+/* 登录div表单样式 */
+#login-form{
+	top:20%;
+	left:16%;
+	position:absolute;
+}
+
+.left {
+	background-color: #fafafa;
+	position:absolute;
+	left:4%;
+	top:7.5%;
+	width:19%;
+	height:91.3%;
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);
+	border-radius: 5px;
+}
+
+.middle {
+	background-color: #fafafa;
+	position:absolute;
+	left:23.6%;
+	top:7.5%;
+	width:52.8%;
+	height:91.3%;
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);
+	border-radius: 5px;
+}
+
+.right {
+	background-color: #fafafa;
+	position:absolute;
+	left:77%;
+	top:7.5%;
+	width:19%;
+	height:91.3%;
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);
+	border-radius: 5px;
+}
+

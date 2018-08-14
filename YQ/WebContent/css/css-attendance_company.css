@@ -1,0 +1,197 @@
+/* 考勤数据 */
+.company-middle{
+	font-size:12px;
+	color:#4a4a4a;
+	margin-top:10px;
+	margin-left:4px;
+	width:96%;
+/* 	background-color:#ff80c0; */
+}
+
+/* 标题h1 */
+.company-middle h1{
+	position: absolute;
+	margin-left:-10px;
+	padding-top:5px;
+	padding-bottom:10px;
+	top:0%;
+	left:5%;
+	width:94%;
+	text-align:center;
+	color:#432879;
+	background-color: #ccc;
+	border-radius:10px 10px 0px 0px;
+	border:0px;
+}
+/* 添加企业输入框 */
+.message-input{
+	position:absolute;
+	width:110px;
+	left:66%;
+	top:5%;
+	border:1px solid #432879;
+	border-radius:5px;
+	background-color: #e4e4e4;
+	z-index:990;
+}
+/* 添加输入框 */
+.message-input2{
+	position:absolute;
+	width:140px;
+	left:66%;
+	top:5%;
+	border:1px solid #432879;
+	border-radius:5px;
+	background-color: #e4e4e4;
+	z-index:990;
+}
+/* 搜索信息按钮 */
+.message-search{
+	position:absolute;
+	left:85%;
+	top:4%;
+	width:30px;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	align-items:center;
+	background-color:#432879;
+	color:#fff;
+	border:0px solid #432879;
+	border-radius:15px;
+	cursor:pointer;
+}
+/* 添加企业按钮 */
+.message-add{
+	position:absolute;
+	left:90%;
+	top:4%;
+	width:30px;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	align-items:center;
+	background-color:#432879;
+	color:#fff;
+	border:0px solid #432879;
+	border-radius:15px;
+	cursor:pointer;
+}
+/* 企业信息表 */
+.company{
+	position: absolute;
+	padding-top:3px;
+	padding-bottom:5px;
+	margin-left:-10px;
+	top:11%;
+	left:5%;
+	width:94%;
+	text-align:center;
+	color:#432879;
+	background-color: #e4e4e4;
+	height:85%;
+	border-collapse:collapse;
+	overflow:scroll;
+	overflow-x:hidden;
+	
+}
+.message{
+	padding-bottom:40px;
+}
+.company table tr:nth-child(even),
+ .company table tr:nth-child(even) input,
+ .company table tr:nth-child(even) textarea{
+	background: #dedede;
+}
+
+.message-th1{
+	width:120px;
+}
+.message-th2{
+	width:328px;
+}
+.message-th3{
+	width:80px;
+}
+
+/* 企业名称 */
+.company-name{
+	width:120px;
+}
+.name{
+	display:none;
+	width:100px;
+	text-align:center;
+	border:0px;
+	background-color: #e4e4e4;	
+}
+/* 企业信息 */
+.company-message{
+	text-align:left;
+}
+.company-message input, .company-message textarea{
+	border:0px;
+	background-color: #e4e4e4;	
+}
+.time{
+	width:60px;
+}
+.company-message .submit, .company table tr:nth-child(even) .submit{	
+	border: 1px solid #ccc;
+	padding: 5px 0px 7px 0px;/*上右下左*/
+	border-radius: 5px;
+	float: left;
+	min-width:150px;
+	background-color: #8d8d8d;
+	color:#ffffff;
+	font-size:13px;
+	cursor:pointer;
+}
+/* 操作 */
+.company-op{	
+	width:80px;
+	cursor:pointer;
+}
+
+/*
+ * 右侧
+ */
+/* 企业数据标题 */
+.record-title2{
+	margin-left:4px;
+	margin-top:10px;
+	margin-bottom:-4px;
+	padding-top:5px;
+	width:96%;
+	height:30px;
+	border-radius:15px 15px 0px 0px;
+	font-size:14px;
+	text-align:center;
+	background-color: #ccc;
+	color:#432879;
+}
+/* 企业数据 */
+.record-right{
+	font-size:12px;
+	color:#4a4a4a;
+/* 	margin-top:10px; */
+	margin-left:4px;
+	width:96%;
+	height:89%;
+	overflow:scroll;
+	overflow-x:hidden;
+/* 	background-color:#ff80c0; */
+}
+.record-right tr{
+	background-color:#e7e7e7;
+	cursor:pointer;
+}
+.record-right td{
+	padding-top:4px;
+	width:300px;
+	text-align:center;
+	padding-bottom:4px;
+}
+.record-right table{
+	border-collapse:collapse;
+}

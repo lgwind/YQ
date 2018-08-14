@@ -1,0 +1,82 @@
+/* 登录input样式 */
+.input-login {
+	border: 1px solid #ccc;
+	padding: 7px 10px;
+	float: left;
+	min-width:350px;
+	border-radius: 2px;
+}
+.input-login:hover{
+	border-color: #f66495;
+}
+
+/* 登录input-submit样式 */
+.submit-login {
+	border: 1px solid #ccc;
+	padding: 7px 10px 9px 10px;/*上右下左*/
+	border-radius: 2px;
+	float: left;
+	min-width:170px;
+	background-color: #00a7de;
+	color:#ffffff;
+	font-size:16px;
+	cursor:pointer;
+}
+.submit-login:hover {	
+	background-color: #00b8f4;
+}
+
+/* 注册按钮样式 */
+.register-login {
+	border: 1px solid #ccc;
+	padding: 7px 10px 9px 10px;/*上右下左*/
+	border-radius: 2px;
+	float: left;
+	min-width:170px;
+	background-color: #ffffff;
+	color:#000000;
+	font-size:16px;
+	cursor:pointer;
+}
+.register-login:hover {	
+	background-color: #f4f4f4;
+}
+
+/* 标题h2 */
+.login-middle h2{
+	position: absolute;
+	top:10%;
+	left:45%;
+}
+/* 登录表单 */
+.login-form{
+	position: absolute;
+	top:30%;
+	left:18%;
+}
+
+/* tr */
+tr{
+	height:45px;
+}
+
+/* td */
+td{
+	float:left;
+	font-size:12px;
+	color:#707070;
+}
+
+/* td右浮动 */
+.right-td{
+	float:right;
+}
+
+/* 登录结果 */
+.login-result{	
+	position: absolute;
+	top:53.6%;
+	left:19%;
+	font-size:12px;
+	color:#f66495;
+}
